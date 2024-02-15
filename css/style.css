@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 450px;
+    color: whitesmoke;
+    background: darkcyan;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px 3px rgba(0,0,0,0.4);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 10px;
+}
+
+.Temperature-icon{
+    font-size: 40px;
+    color: white;
+}
+
+h1{
+    color: white;
+    letter-spacing: 1.2px;
+    font-size: 30px;
+}
+
+#celsius, #fahrenheit {
+    display: flow-root;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+input{
+    flex: 5;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+    padding: 0 10px;
+}
+
+.icon{
+    flex: 1;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 5px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 0 8px 8px 0;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h5{
+    color: white;
+    letter-spacing: 1.4px;
+    font-size: 14px;
+    margin-top: 15px;
+}
